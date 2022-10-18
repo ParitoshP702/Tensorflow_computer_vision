@@ -1,6 +1,6 @@
 # Tensorflow_computer_vision
 Created a binary classification deep learning model with Convolutional Neural Networks using tensorflow.
-The dataset I used in the project is kaggle's [Children vs Adults classification dataset](kaggle datasets download -d die9origephit/children-vs-adults-images)
+The dataset I used in the project is kaggle's Children vs Adults classification dataset(kaggle datasets download -d die9origephit/children-vs-adults-images)
 First of all I created a  convolutional neural network architecture using the Sequential API using 4 Conv2d layers and 2 MaxPooling layers(to reduce overfitting in our dataset)
 Then we compiled the model, fitted the model in a history object and analysed the loss, validation loss, accuracy and validation accuracy by plotiing them using matplotlib. 
 Then I used transfer learning feature extraction approach using the Functional API, using the inbuilt EfficientNetB0 model and  analysed the loss curves of our model.
